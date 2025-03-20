@@ -66,7 +66,7 @@ export const OrthographyPage = () => {
             message.isGpt ? (
               <GptOrthographyMessage key={index} {...message.info!} />
             ) : (
-              <MyMessage key={index} text={message.text} file={file} />
+              <MyMessage key={index} text={message.text} file={message.file} />
             )
           )}
 

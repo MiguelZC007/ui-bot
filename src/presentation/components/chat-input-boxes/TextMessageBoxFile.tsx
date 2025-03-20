@@ -14,7 +14,7 @@ export const TextMessageBoxFile = ({
   accept,
 }: Props) => {
   const [message, setMessage] = useState("");
-  const [phone, setPhone] = useState("+59160365521");
+  const [phone, setPhone] = useState("+593988591371");
 
   const [selectedFile, setSelectedFile] = useState<File | null>();
   const inputFileRef = useRef<HTMLInputElement>(null);
