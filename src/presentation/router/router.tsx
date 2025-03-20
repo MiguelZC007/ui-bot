@@ -16,8 +16,8 @@ export const menuRoutes = [
   {
     to: "/chat-bot",
     icon: "fa-solid fa-spell-check",
-    title: "Ortografía",
-    description: "Corregir ortografía",
+    title: "Chat Bot",
+    description: "Chat Bot",
     component: <OrthographyPage />,
   },
   {
